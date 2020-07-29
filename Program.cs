@@ -16,6 +16,7 @@ namespace Example2
             y = x / 2;
 
             Console.WriteLine("y contains x / 2: " + y);
+            Console.WriteLine("and saw on");
         }
     }
 }
