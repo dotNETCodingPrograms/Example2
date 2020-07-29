@@ -6,7 +6,16 @@ namespace Example2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int x;
+            int y;
+
+            x = 100;
+
+            Console.WriteLine("x contains: " + x);
+
+            y = x / 2;
+
+            Console.WriteLine("y contains x / 2: " + y);
         }
     }
 }
